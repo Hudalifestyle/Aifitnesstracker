@@ -1,6 +1,11 @@
+name=input("Enter your name ?"))
+age= int(input("Enter your age?"))
+sex= input("Enter your sex?"))
+height=flaot(int("Enter your height?"))
 weight = flaot(int("Enter your weight?"))
 bmi= flaot(int("Enter your BMI?"))
-fat= flaot(int("Enter you fat precent?"))
+fat= flaot(int("Enter you fat percent?"))
+date=int(input("Enter your date"))
 import math
 # bmi BMI = (pounds/inches^2) x 703.
 def bmi_preceng(weight,height):
@@ -19,7 +24,10 @@ def fat_precenge(bmi,age):
         # Women Body Fat Percentage = (1.20 x BMI) / (0.23 x Age) – 5.4.
         #print# Body Fat Percentage Ranges.
 def store():
+    #store name
     #store bmi
+    #store sex
+    #store age
     #store fat
     #store weight
     #store date
